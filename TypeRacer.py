@@ -15,7 +15,7 @@ while True:
     if intext != "p":
         driver.get('https://play.typeracer.com/')
     input("Hit enter once page is loaded")
-    sleep = 0.02
+    sleep = 0.015
     # sleep = float(input('Enter time sleep'))
     sleepHalf = sleep / 2
     words = driver.find_elements_by_css_selector('table.inputPanel')
@@ -32,7 +32,6 @@ while True:
                 randKey = random.choice(string.ascii_letters)
                 typeKey.press(randKey)
                 typeKey.release(randKey)
-                time.sleep(sleepHalf)
                 typeKey.press(Key.backspace)
                 typeKey.release(Key.backspace)
             typeKey.press(character)
