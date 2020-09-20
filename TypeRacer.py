@@ -15,7 +15,8 @@ while True:
     if intext != "p":
         driver.get('https://play.typeracer.com/')
     input("Hit enter once page is loaded")
-    sleep = float(input('Enter time sleep'))
+    sleep = 0.02
+    # sleep = float(input('Enter time sleep'))
     sleepHalf = sleep / 2
     words = driver.find_elements_by_css_selector('table.inputPanel')
     # print(words[0].text)
