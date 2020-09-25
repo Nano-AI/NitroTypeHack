@@ -1,4 +1,5 @@
 # Typing Websites Hack
+### :warning: I AM NOT RESPONSIBLE FOR ANYTHING YOU DO WITH THIS CODE
 Hacks for one website.
 - [Nitro Type](https://www.nitrotype.com/).
 - [TypeRacer](https://play.typeracer.com/).
